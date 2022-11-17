@@ -3,10 +3,12 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Note from "./Note";
 import notes from "../notes";
+import CreateArea from "./CreateArea";
 
 function App() {
     return (<div>
         <Header />
+        <CreateArea />
         <Note
             title="This is a new title"
             content="This is a new paragraph"
